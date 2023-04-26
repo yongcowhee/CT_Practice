@@ -1,5 +1,7 @@
+import MaxMin.*;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Solution sol = new Solution();
+        sol.solution("1 2 3 4");
     }
 }
