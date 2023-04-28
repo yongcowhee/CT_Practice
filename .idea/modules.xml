@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/CreateMinimum/CreateMinimum.iml" filepath="$PROJECT_DIR$/CreateMinimum/CreateMinimum.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxandMin/MaxandMin.iml" filepath="$PROJECT_DIR$/MaxandMin/MaxandMin.iml" />
       <module fileurl="file://$PROJECT_DIR$/NextBigNumber/NextBigNumber.iml" filepath="$PROJECT_DIR$/NextBigNumber/NextBigNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Removing_the_Pair/Removing_the_Pair.iml" filepath="$PROJECT_DIR$/Removing_the_Pair/Removing_the_Pair.iml" />
       <module fileurl="file://$PROJECT_DIR$/Repeat_Binary_Transformation/Repeat_Binary_Transformation.iml" filepath="$PROJECT_DIR$/Repeat_Binary_Transformation/Repeat_Binary_Transformation.iml" />
     </modules>
   </component>

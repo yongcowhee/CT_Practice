@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff8a066-bd4c-450e-a46a-eaab3a68a2f0" name="Changes" comment="CodingTestPractice Start!&#10;- Programmers Lv.2 올바른 괄호&#10;- Programmers Lv.2 최댓값과 최솟값&#10;- Programmers Lv.2 다음 큰 숫자&#10;- Programmers Lv.2 JadenCase (런타임 에러로 수정 예정)">
-      <change afterPath="$PROJECT_DIR$/CreateMinimum/CreateMinimum.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateMinimum/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateMinimum/src/createMinimum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repeat_Binary_Transformation/Repeat_Binary_Transformation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repeat_Binary_Transformation/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repeat_Binary_Transformation/src/Solution/Solution.java" afterDir="false" />
+    <list default="true" id="7ff8a066-bd4c-450e-a46a-eaab3a68a2f0" name="Changes" comment="- Programmers Lv.2 최솟값 만들기">
+      <change afterPath="$PROJECT_DIR$/Removing_the_Pair/Removing_the_Pair.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Removing_the_Pair/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Removing_the_Pair/src/Solution/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -73,7 +70,8 @@
       <updated>1682318896603</updated>
       <workItem from="1682318897705" duration="8468000" />
       <workItem from="1682333662471" duration="7543000" />
-      <workItem from="1682429109159" duration="13653000" />
+      <workItem from="1682429109159" duration="13911000" />
+      <workItem from="1682618149735" duration="4177000" />
     </task>
     <task id="LOCAL-00001" summary="CodingTestPractice Start!&#10;- Programmers Lv.2 올바른 괄호&#10;- Programmers Lv.2 최댓값과 최솟값&#10;- Programmers Lv.2 다음 큰 숫자&#10;- Programmers Lv.2 JadenCase (런타임 에러로 수정 예정)">
       <created>1682494460899</created>
@@ -82,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682494460899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Programmers Lv.2 이진변환 반복하기">
+      <created>1682535874079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535874079</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Programmers Lv.2 최솟값 만들기">
+      <created>1682535910128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535910128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CodingTestPractice Start!&#10;- Programmers Lv.2 올바른 괄호&#10;- Programmers Lv.2 최댓값과 최솟값&#10;- Programmers Lv.2 다음 큰 숫자&#10;- Programmers Lv.2 JadenCase (런타임 에러로 수정 예정)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodingTestPractice Start!&#10;- Programmers Lv.2 올바른 괄호&#10;- Programmers Lv.2 최댓값과 최솟값&#10;- Programmers Lv.2 다음 큰 숫자&#10;- Programmers Lv.2 JadenCase (런타임 에러로 수정 예정)" />
+    <MESSAGE value="- Programmers Lv.2 이진변환 반복하기" />
+    <MESSAGE value="- Programmers Lv.2 최솟값 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Programmers Lv.2 최솟값 만들기" />
   </component>
 </project>
