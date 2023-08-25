@@ -1,22 +1,37 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         String wordStr;
-        String wordsArr[] = new String[n];
+        ArrayList<String> wordsList = new ArrayList<>();
 
-        for(int i = 0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             wordStr = br.readLine();
-            if(!Arrays.asList(wordsArr).contains(wordStr)){
-                wordsArr[i] = wordStr;
+            if (!wordsList.contains(wordStr)) {
+                wordsList.add(wordStr);
             }
         }
-        Arrays.sort(wordsArr, Comparator.comparing(String::length));
+
+        Collections.sort(wordsList, new Comparator<String>() {
+            @Override
+            public int compare(String s1, String s2) {
+                if (s1.length() == s2.length()) {
+                    return s1.compareTo(s2);
+                } else {
+                    return s1.length() - s2.length();
+                }
+            }
+        });
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < wordsList.size(); i++) {
+            sb.append(wordsList.get(i) + "\n");
+        }
+        System.out.println(sb);
     }
 }
