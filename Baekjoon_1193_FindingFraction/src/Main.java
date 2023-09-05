@@ -17,18 +17,13 @@ public class Main {
             if (sum >= input) {
                 order = sum - input + 1; // 몇 번째 수인지 알아내기
                 if (n % 2 == 0) {
-                    for (int i = 0; i < order; i++) {
-                        numerator = n - i;
-                        denominator = 1 + i;
-                    }
-                    break;
+                    denominator = order;
+                    numerator = n - order + 1;
                 } else {
-                    for (int i = 0; i < order; i++) {
-                        numerator = 1 + i;
-                        denominator = n - i;
-                    }
-                    break;
+                    denominator = n - order +1;
+                    numerator = order;
                 }
+                break;
             }
         }
 
